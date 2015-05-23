@@ -16,6 +16,10 @@ npm install safeson --save
 
 Takes data, turns it into JSON, and strips away HTML hazards
 
+## `safeson.decode(data)`
+
+Takes data previously encoded with `safeson` and unescapes it, then turns it into an object
+
 # License
 
 MIT
