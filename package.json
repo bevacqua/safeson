@@ -1,0 +1,16 @@
+{
+  "name": "safeson",
+  "version": "1.0.0",
+  "description": "Convert JSON to something you can safely embed in HTML",
+  "main": "safeson.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/safeson.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/safeson/issues"
+  },
+  "homepage": "https://github.com/bevacqua/safeson"
+}
