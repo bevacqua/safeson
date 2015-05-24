@@ -12,7 +12,7 @@ npm install safeson --save
 
 # Usage
 
-## `safeson(data)`
+## `safeson(data, spaces?)`
 
 Takes data, turns it into JSON, and strips away HTML hazards
 

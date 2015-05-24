@@ -2,8 +2,8 @@
 
 var unescape = require('./unescape');
 
-function safeson (data) {
-  return JSON.stringify(data, null, 2)
+function safeson (data, spaces) {
+  return JSON.stringify(data, null, spaces)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
